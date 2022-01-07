@@ -19,6 +19,8 @@
   "homepage": "https://github.com/AdrianaBroadnax/EmployeeTracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "custom-env": "^2.0.1",
+    "express": "^4.17.2",
     "inquirer": "^8.2.0",
     "mysql2": "^2.3.3",
     "save": "^2.4.0"
