@@ -1,20 +1,20 @@
 INSERT INTO department (id, name)
-VALUES (001, "Human Resource"),
-       (002, "Accounting"),
-       (003, "Finance"),
-       (004, "Marketing"),
-       (005, "Advertising");
+VALUES ( 1, "Human Resource"),
+       ( 2, "Accounting"),
+       ( 3, "Finance"),
+       ( 4, "Marketing"),
+       ( 5, "Advertising");
        
 INSERT INTO role (id, department_id, title, salary)
-VALUES (001, 001, "HR Rep", 32000),
-       (002, 002, "Accountant", 80000),
-       (003, 003, "Finance Mgr", 120000),
-       (004, 004, "Advertising Executive", 150000),
-       (005, 005, "Marketing Executive", 750000);
+VALUES (1, 1, "HR Rep", 32000),
+       (2, 2, "Accountant", 80000),
+       (3, 3, "Finance Mgr", 120000),
+       (4, 4, "Advertising Executive", 150000),
+       (5, 5, "Marketing Executive", 750000);
 
 INSERT INTO employee (id, role_id, manager_id, first_name, last_name)
-VALUES (001, 001, 001, "Megan", "Good"),
-       (002, 002, 002, "Lauren", "London"),
-       (003, 003, 003, "Jennifer", "Lewis"),
-       (005, 004, 004, "Angela", "Bassett"),
-       (004, 005, 005, "Halle", "Berry"); 
+VALUES (1, 1, 1, "Megan", "Good"),
+       (2, 2, 2, "Lauren", "London"),
+       (3, 3, 3, "Jennifer", "Lewis"),
+       (5, 4, 4, "Angela", "Bassett"),
+       (4, 5, 5, "Halle", "Berry"); 
