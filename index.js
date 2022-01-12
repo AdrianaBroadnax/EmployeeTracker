@@ -96,7 +96,7 @@ function viewDepartments() {
         {
             type: "list",
             name: "department",
-            message: "whichh department would you like to view",
+            message: "which department would you like to view",
             choices: [
                 {
                     name: "Human Resource",
