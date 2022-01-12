@@ -32,8 +32,12 @@ I am not finished, I still need to figuere out the tables and the index.js
 
 Deployed Link:
 
+https://adrianabroadnax.github.io/EmployeeTracker/
+
 
 Github Link: 
+
+https://github.com/AdrianaBroadnax/EmployeeTracker.git
 
 screen recording:
 https://watch.screencastify.com/v/mePZDdk1ApbHsTLIAZEd
